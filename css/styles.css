@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+button {
+  display: block;
+  width: 40rem;
+  height: 40rem;
+  color: white;
+  background-color: red;
+  font-size: 10rem;
+  line-height: 20rem;
+  border-radius: 40%;
+}
